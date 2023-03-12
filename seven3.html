@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script type="text/javascript">
+      var hypotenuse = function (a, b) {
+        return a * b;
+      };
+      // var hypotenuse = new Function("a", "b", "return a*b;");
+
+      // function hypotenuse(a, b) {
+      //   function square(x) {
+      //     return x * x;
+      //   }
+
+      //   return Math.sqrt(square(a) + square(b));
+      // }
+
+      function secondFunction() {
+        var result;
+
+        result = hypotenuse(30, 40);
+
+        document.write(result);
+      }
+    </script>
+  </head>
+
+  <body>
+    <b>Click here to calculate the product</b>
+    <br />
+    <br />
+    <form>
+      <input type="button" onclick="secondFunction() " value="Hello" />
+    </form>
+  </body>
+</html>
